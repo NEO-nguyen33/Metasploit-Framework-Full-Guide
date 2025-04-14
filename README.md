@@ -18,4 +18,4 @@ It includes:
 ## 🚀 Starting Metasploit
 
 ```bash
-sudo msfconsole
+ msfconsole
